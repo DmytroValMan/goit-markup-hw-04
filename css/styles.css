@@ -242,7 +242,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office\ 1.jpg);
+    url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -306,12 +306,6 @@ address {
 .section-our-team-text {
   text-align: center;
   margin-bottom: 8px;
-}
-
-.socials-icon {
-  width: 16px;
-  height: 16px;
-  fill: #f4f4fd;
 }
 
 .socials-link {
