@@ -242,7 +242,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -280,8 +280,7 @@ address {
   margin-bottom: 72px;
 }
 
-.section-our-team .list,
-.footer-right .list {
+.section-our-team .list {
   display: flex;
   gap: 24px;
 }
@@ -325,6 +324,10 @@ address {
 
 .socials {
   justify-content: center;
+}
+
+.socials-icon {
+  fill: #f4f4fd;
 }
 
 .section-our-portfolio {
@@ -395,7 +398,7 @@ address {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 
 .footer-text {
@@ -409,6 +412,20 @@ address {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.footer-left {
+  margin-right: 120px;
+}
+
+.footer-right .list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-right .socials-link:hover,
+.footer-right .socials-link:focus {
+  background-color: #31d0aa;
 }
 
 .visually-hidden {
