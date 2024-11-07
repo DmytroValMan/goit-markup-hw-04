@@ -356,7 +356,7 @@ address {
 }
 
 .overlay {
-  padding: 40px 32px 164px;
+  padding: 40px 32px;
   position: absolute;
   background-color: #4d5ae5;
   font-size: 16px;
