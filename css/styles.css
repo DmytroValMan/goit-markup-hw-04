@@ -95,7 +95,7 @@ header .link-logo {
   position: relative;
 }
 
-.link::after {
+.studio .link::after {
   display: block;
   position: absolute;
   content: "";
